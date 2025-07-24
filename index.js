@@ -21,3 +21,10 @@ console.log(list.contains("fish"))
 console.log(list.contains("cat"))
 
 console.log(list.find("hamster"))
+
+console.log(list.toString())
+list.insertAt("fish", 3)
+console.log(list.toString())
+
+list.removeAt("fish", 3)
+console.log(list.toString())
